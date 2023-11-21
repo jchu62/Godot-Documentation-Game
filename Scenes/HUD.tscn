@@ -1,0 +1,25 @@
+[gd_scene load_steps=2 format=3 uid="uid://n7a7fq2hckwl"]
+
+[ext_resource type="FontFile" uid="uid://cr4i1xgeou5vt" path="res://fonts/Xolonium-Regular.ttf" id="1_nqwjy"]
+
+[node name="HUD" type="CanvasLayer"]
+
+[node name="ScoreLabel" type="Label" parent="."]
+offset_right = 40.0
+offset_bottom = 23.0
+theme_override_fonts/font = ExtResource("1_nqwjy")
+theme_override_font_sizes/font_size = 64
+
+[node name="Message" type="Label" parent="."]
+offset_right = 40.0
+offset_bottom = 23.0
+theme_override_fonts/font = ExtResource("1_nqwjy")
+theme_override_font_sizes/font_size = 64
+
+[node name="StartButton" type="Button" parent="."]
+offset_right = 8.0
+offset_bottom = 8.0
+theme_override_fonts/font = ExtResource("1_nqwjy")
+theme_override_font_sizes/font_size = 64
+
+[node name="MessageTimer" type="Timer" parent="."]
